@@ -47,7 +47,7 @@
 }
 - (void)SetCompletionHanler:(void (^)(NSString *_Num, enum CALRESULT _EResult))completionBlock
 {
-    enum CALRESULT ee = _EResult;
+    //enum CALRESULT ee = _EResult;
     responseBlock = completionBlock;
    // [self SetCompletionHanler:completionBlock^{}];
      NSLog(@"SetCompletionHanler in ");
